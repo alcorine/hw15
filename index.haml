@@ -1,0 +1,237 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{charset:"utf-8"}/
+    %meta{content:"IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{content:"width=device-width, initial-scale=1", :name => "viewport"}/
+    %title Escape
+    %link{href:"fonts/stylesheet.css", rel:"stylesheet"}/
+    / Bootstrap
+    %link{href:"style/bootstrap.min.css", rel:"stylesheet"}/
+    %link{href:"style/hover.css", rel:"stylesheet"}/
+    %link{href:"style/main.css", rel:"stylesheet"}/
+    %link{href:"style/media.css", rel:"stylesheet"}/
+  %body
+    %section.welcome-section
+      .header
+        .container
+          .navbar-header.navbar-inverse
+            %button.navbar-toggle.collapsed{"data-target" => "#navbar", "data-toggle" => "collapse", type:"button"}
+              %span.sr-only Toggle navigation
+              %span.icon-bar
+              %span.icon-bar
+              %span.icon-bar
+            .logo.pull-left
+              %a{href:"#"}
+                %img{alt:"Escape", height:"29", src:"img/logo.png", width:"140"}/
+          #navbar.collapse.navbar-collapse
+            %nav
+              %ul.navbar-nav
+                %li
+                  %a{href:"#"} Home
+                %li
+                  %a{href:"#"} Services
+                %li
+                  %a{href:"#"} Clients
+                %li
+                  %a{href:"#"} Team
+                %li
+                  %a{href:"#"} Contact
+      .welcome-slogan.text-center
+        %h1
+          %span.block
+            Can you build the website of my dreams?
+          Yup, we can do that.
+        %a.hvr-float-shadow{href:"#"} Learn More
+    %section.services
+      %article.web-development
+        .container
+          %h2
+            %span Web
+            Development
+          %p
+            Proin iaculis purus consequat sem cure digni ssim.
+            Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+            Proin iaculis purus consequat sem cure digni ssim.
+            Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+          %p
+            Iaculis purus consequat sem cure digni ssim.
+            Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+            Proin iaculis purus consequat sem cure digni ssim.
+      %article.identity-branding
+        .container
+          %h2
+            %span Identity
+            Branding
+          %p
+            Proin iaculis purus consequat sem cure digni ssim.
+            Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+            Proin iaculis purus consequat sem cure digni ssim.
+            Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+          %p
+            Iaculis purus consequat sem cure digni ssim.
+            Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.
+            Proin iaculis purus consequat sem cure digni ssim.
+      %article.services-list
+        .container
+          %ul.list-inline
+            %li.col-md-6.col-sm-6
+              %span.hvr-wobble-horizontal
+                %img{src:"img/Branding-and-Identity-bg.png", alt:"", width:"22", height:"46"}
+              %h4 Branding & Identity
+              %p
+                Proin iaculis purus consequat sem cure
+                digni ssim. Donec porttitora entum suscipit
+                aenean rhoncus posuere odio in tincidunt.
+            %li.col-md-6.col-sm-6
+              %span.hvr-wobble-horizontal
+                %img{src:"img/Web-and-Graphic-Design-bg.png", alt:"", width:"39", height:"34"}
+              %h4 Web & Graphic Design
+              %p
+                Proin iaculis purus consequat sem cure
+                digni ssim. Donec porttitora entum suscipit
+                aenean rhoncus posuere odio in tincidunt.
+            %li.col-md-6.col-sm-6
+              %span.hvr-wobble-horizontal
+                %img{src:"img/Mobile-App-Development-bg.png", alt:"", width:"36", height:"36"}
+              %h4 Mobile App Development
+              %p
+                Proin iaculis purus consequat sem cure
+                digni ssim. Donec porttitora entum suscipit
+                aenean rhoncus posuere odio in tincidunt.
+            %li.col-md-6.col-sm-6
+              %span.hvr-wobble-horizontal
+                %img{src:"img/Animations-bg.png", alt:"", width:"39", height:"26"}
+              %h4 Animations
+              %p
+                Proin iaculis purus consequat sem cure
+                digni ssim. Donec porttitora entum suscipit
+                aenean rhoncus posuere odio in tincidunt.
+            %li.col-md-6.col-sm-6
+              %span.hvr-wobble-horizontal
+                %img{src:"img/UI-UX-bg.png", alt:"", width:"39", height:"39"}
+              %h4 UI/UX
+              %p
+                Proin iaculis purus consequat sem cure
+                digni ssim. Donec porttitora entum suscipit
+                aenean rhoncus posuere odio in tincidunt.
+            %li.col-md-6.col-sm-6
+              %span.hvr-wobble-horizontal
+                %img{src:"img/Photography-bg.png", alt:"", width:"33", height:"29"}
+              %h4 Photography
+              %p
+                Proin iaculis purus consequat sem cure
+                digni ssim. Donec porttitora entum suscipit
+                aenean rhoncus posuere odio in tincidunt.
+    %section.clients
+      .container
+        %h2.text-center
+          %span Awesome
+          Clients
+        %p.subtitle See what nice things our clients said about us.
+        %article.first-recall.clearfix
+          %span
+            %img{src:"img/photo-img.png", alt:"", width:"235", height:"235"}
+          .arrow_box
+            %p
+              "Proin iaculis purus consequat sem cure  digni ssim
+              donec porttitora entum suscipit aenean rhoncus. "
+            %p.clients-name
+              &#045 Jamie Richardson, Founder of Cocoa Media
+        %article.second-recall.clearfix
+          %span
+            %img{src:"img/photo-img.png", alt:"", width:"235", height:"235"}
+          .arrow_box
+            %p
+              "Proin iaculis purus consequat sem cure  digni ssim
+              donec porttitora entum suscipit aenean rhoncus. "
+            %p.clients-name
+              &#045 Bart Thompson, Founder of Rainel
+    %section.logos
+      .container
+        %ul.list-inline.text-center.row
+          %li.col-xs-12.col-sm-6.col-md-3.hvr-bob
+            %a{href:"#"}
+              %img{src:"img/evanto-logos.png", alt:"", width:"161", height:"30"}
+          %li.col-xs-12.col-sm-6.col-md-3.hvr-bob
+            %a{href:"#"}
+              %img{src:"img/wp-logos.png", alt:"", width:"186", height:"42"}
+          %li.col-xs-12.col-sm-6.col-md-3.hvr-bob
+            %a{href:"#"}
+              %img{src:"img/tuts-logos.png", alt:"", width:"131", height:"41"}
+          %li.col-xs-12.col-sm-6.col-md-3.hvr-bob
+            %a{href:"#"}
+              %img{src:"img/ml-logos.png", alt:"", width:"167", height:"42"}
+    %section.team
+      .container
+        %h2.text-center
+          %span
+            Amazing
+          Team
+        %p.subtitle These wonderful people make work enjoyable.
+        %ul.team-list.row
+          %li.col-md-4
+            %img{src:"img/team-photo-img.png", alt:"", width:"234", height:"235"}
+            %h3.text-center Kimberly Thompson
+            %p.proff.text-center Marketer
+            %ul.list-inline.text-center.social-btn-list
+              %li.hvr-buzz
+                %a.twitt-btn{href:"#"}
+              %li.hvr-buzz
+                %a.fb-btn{href:"#"}
+              %li.hvr-buzz
+                %a.pint-btn{href:"#"}
+          %li.col-md-4
+            %img{src:"img/team-photo-img.png", alt:"", width:"234", height:"235"}
+            %h3.text-center Rico Massimo
+            %p.proff.text-center Coder
+            %ul.list-inline.text-center.social-btn-list
+              %li.hvr-buzz
+                %a.twitt-btn{href:"#"}
+              %li.hvr-buzz
+                %a.fb-btn{href:"#"}
+              %li.hvr-buzz
+                %a.google-btn{href:"#"}
+          %li.col-md-4
+            %img{src:"img/team-photo-img.png", alt:"", width:"234", height:"235"}
+            %h3.text-center Uku Mason
+            %p.proff.text-center Graphic Designer
+            %ul.list-inline.text-center.social-btn-list
+              %li.hvr-buzz
+                %a.fb-btn{href:"#"}
+              %li.hvr-buzz
+                %a.pint-btn{href:"#"}
+        %p.text-center.team-few-words
+          Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit
+          aenean rhoncus posuere odio in tincidunt proin iaculis.
+    %section.contact
+      .container
+        %article.contact-info.col-md-6
+          %h2
+            %span Say
+            Hello
+          %p.subtitle
+            Don’t be shy, drop us an email and say hello! We are a really nice
+            bunch of people :)
+          %ul.contact-list.list-inline
+            %li.tel (416) 555-0000
+            %li.email hello@escape.com
+            %li.twitt @escape
+            %li.fb facebook.com/escape
+            %li.g-plus plus.com/escape
+            %li.print pinterest.com/escape
+        %article.feedback.col-md-5.col-md-offset-1
+          %form{action:"#", method:"post"}
+            %input.form-control.form-group{type:"text", placeholder:"Your Name*", required:""}
+            %input.form-control.form-group{type:"email", placeholder:"Your E-mail*", required:""}
+            %textarea.form-control.form-group{placeholder:"Your Message*", rows:"9", required:""}
+    %footer.footer
+      .container
+        %span.copyright &copy 2014 Escape by FreebiesXpress
+        %span &#149
+        %span Made In Toronto
+
+    / jQuery (necessary for Bootstrap's JavaScript plugins)
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"}
+    / Include all compiled plugins (below), or include individual files as needed
+    %script{:src => "js/bootstrap.min.js"}

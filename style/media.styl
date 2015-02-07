@@ -1,0 +1,199 @@
+@media (min-width 1200px)
+  .container
+    width 970px
+
+@media (min-width 300px)
+  .team-list
+    li
+      margin-top 50px
+      .social-btn-list
+        li
+          margin-top 0
+
+@media (max-width 767px)
+  .navbar-nav
+    float none
+    li
+      text-align center
+      &:hover
+        background rgba(255,255,255, 0.3)
+
+  .first-recall, .second-recall
+    span
+      float none
+      text-align center
+
+    .arrow_box
+      width 100%
+      padding 15px
+      margin 30px 0
+      position relative
+      background #ffffff
+      border 1px solid #e8e8e8
+      &:after
+        bottom 100%
+        left 50%
+        border solid transparent
+        content " "
+        height 0
+        width 0
+        position absolute
+        pointer-events none
+      &:before
+        bottom 100%
+        left 50%
+        border solid transparent
+        content " "
+        height 0
+        width 0
+        position absolute
+        pointer-events none
+
+    .arrow_box
+      &:after
+        border-color rgba(255, 255, 255, 0)
+        border-bottom-color #ffffff
+        border-width 20px
+        margin-left -20px
+      &:before
+        border-color rgba(232, 232, 232, 0)
+        border-bottom-color #e8e8e8
+        border-width 21px
+        margin-left -21px
+
+  .contact-list
+    li
+      display block
+      width 100%
+
+  .footer
+    span
+      display block
+
+@media (min-width 500px)
+  .contact-list
+    li
+      display inline-block
+      width 49%
+
+  .footer
+    span
+      display inline-block
+
+@media (min-width 768px)
+  .first-recall
+    .arrow_box
+      float right
+      padding 15px 40px
+      position relative
+      background #ffffff
+      border 1px solid #e8e8e8
+      &:after
+        right 100%
+        top 50%
+        border solid transparent
+        content " "
+        height 0
+        width 0
+        position absolute
+        pointer-events none
+      &:before
+        right 100%
+        top 50%
+        border solid transparent
+        content " "
+        height 0
+        width 0
+        position absolute
+        pointer-events none
+    .arrow_box
+      &:after
+        border-color rgba(255, 255, 255, 0)
+        border-right-color #ffffff
+        border-width 20px
+        margin-top -20px
+      &:before
+        border-color rgba(232, 232, 232, 0)
+        border-right-color #e8e8e8
+        border-width 21px
+        margin-top -21px
+
+  .second-recall
+    .arrow_box
+      float left
+      padding 15px 40px
+      position relative
+      background #ffffff
+      border 1px solid #e8e8e8
+      &:after
+        left 100%
+        top 50%
+        border solid transparent
+        content " "
+        height 0
+        width 0
+        position absolute
+        pointer-events none
+      &:before
+        left 100%
+        top 50%
+        border solid transparent
+        content " "
+        height 0
+        width 0
+        position absolute
+        pointer-events none
+    .arrow_box
+      &:after
+        border-color rgba(255, 255, 255, 0)
+        border-left-color #ffffff
+        border-width 20px
+        margin-top -20px
+      &:before
+        border-color rgba(232, 232, 232, 0)
+        border-left-color #e8e8e8
+        border-width 21px
+        margin-top -21px
+  .services
+    article
+      h2
+        font-size 60px
+        span
+          font-size  60px
+
+  .identity-branding
+    .container
+      position relative
+      text-align right
+      h2
+        width 64%
+        text-align left
+        display inline-block
+      p
+        text-align left
+        display inline-block
+        width 64%
+      &:before
+        content ""
+        position absolute
+        top 20px
+        left 0
+        background url("../img/branding-bg.png") no-repeat
+        width 272px
+        height 197px
+
+  .web-development
+    .container
+      position relative
+      h2
+        text-align left
+      p
+        width 64%
+      &:after
+        content ""
+        position absolute
+        top 15%
+        right 0
+        background url("../img/web-develop-bg.png") no-repeat
+        width 221px
+        height 222px

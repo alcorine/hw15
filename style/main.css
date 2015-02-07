@@ -1,0 +1,346 @@
+/*MIXIN*/
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font: 15px "brandon_grotesque", sans-serif;
+}
+.block {
+  display: block;
+}
+.navbar-inverse {
+  background: none;
+  border: none;
+}
+.navbar-collapse {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+/*RESET*/
+}
+section h2 {
+  font: 60px "brandon_grotesquebold", sans-serif;
+}
+section h2 span {
+  font: 60px "brandon_grotesquelight", sans-serif;
+}
+/*Progect*/
+/*Welcome*/
+.welcome-section {
+  overflow: hidden;
+  background: url("../img/welcome-bg.jpg") no-repeat fixed;
+  background-size: cover;
+  padding: 45px 0 125px;
+}
+.welcome-section nav li a {
+  color: #fff;
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  font: 18px "brandon_grotesquemedium", sans-serif;
+}
+.header {
+  margin: 0 0 150px 0;
+}
+.logo {
+  line-height: 50px;
+}
+.navbar-nav {
+  float: right;
+}
+.welcome-slogan h1 {
+  font: 66px "brandon_grotesquebold", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+}
+.welcome-slogan h1 span {
+  text-transform: none;
+  font: 32px "brandon_grotesquelight", sans-serif;
+  margin: 40px auto 0;
+  color: #fff;
+}
+.welcome-slogan a {
+  display: inline-block;
+  margin: 45px auto 0;
+  padding: 15px 66px;
+  font: 23px "brandon_grotesquebold", sans-serif;
+  color: #fff;
+  border: 1px solid #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+/*Services*/
+.services article {
+  padding: 80px 0;
+}
+.services article h2 {
+  color: #000;
+  font: 40px "brandon_grotesquebold", sans-serif;
+}
+.services article h2 span {
+  font: 40px "brandon_grotesquelight", sans-serif;
+}
+.web-development .container {
+  position: relative;
+}
+.web-development .container h2 {
+  text-align: center;
+}
+.web-development .container p {
+  font: 18px "brandon_grotesque_regularRg", sans-serif;
+  color: #777;
+}
+.identity-branding {
+  background: #fafafa;
+}
+.identity-branding .container {
+  position: relative;
+}
+.identity-branding .container h2 {
+  text-align: center;
+}
+.identity-branding .container p {
+  text-align: left;
+  display: inline-block;
+  font: 18px "brandon_grotesque_regularRg", sans-serif;
+  color: #777;
+}
+.services-list li {
+/*width 49%*/
+  margin-top: 50px;
+}
+.services-list li h4 {
+  margin: 0;
+  font: 22px "brandon_grotesquemedium", sans-serif;
+  color: #222;
+  overflow: hidden;
+}
+.services-list li p {
+  font: 18px "brandon_grotesque_regularRg", sans-serif;
+  color: #777;
+  overflow: hidden;
+}
+.services-list li span {
+  margin: 0 20px 0 0;
+  float: left;
+  width: 70px;
+  height: 70px;
+  background: #000;
+  display: block;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  position: relative;
+}
+.services-list li span img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.clients {
+  padding: 80px 0;
+  background: #fafafa;
+  text-align: center;
+}
+.clients h2 {
+  color: #000;
+}
+.first-recall .arrow_box {
+  text-align: left;
+  margin-top: 30px;
+  padding: 15px 80px;
+  width: 64%;
+}
+.first-recall span {
+  overflow: hidden;
+  float: left;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.first-recall p {
+  font: 26px "brandon_grotesque_regularRg", sans-serif;
+  color: #777;
+}
+.first-recall .clients-name {
+  font: 20px "brandon_grotesque_regularRg", sans-serif;
+  color: #7690c5;
+}
+.second-recall {
+  margin-top: 30px;
+}
+.second-recall .arrow_box {
+  text-align: left;
+  margin-top: 30px;
+  padding: 15px 80px;
+  width: 64%;
+}
+.second-recall span {
+  overflow: hidden;
+  float: right;
+}
+.second-recall p {
+  font: 26px "brandon_grotesque_regularRg", sans-serif;
+  color: #777;
+}
+.second-recall .clients-name {
+  font: 20px "brandon_grotesque_regularRg", sans-serif;
+  color: #7690c5;
+}
+.subtitle {
+  font: 22px "brandon_grotesque_regularRg", sans-serif;
+  text-align: center;
+  color: #777;
+  margin-bottom: 50px;
+}
+.logos {
+  padding: 60px 0;
+}
+.logos ul li {
+  margin: 20px 0;
+}
+.team {
+  padding: 80px 0;
+  background: #000;
+  color: #fff;
+}
+.team h2 {
+  color: #fff;
+}
+.team h3 {
+  font: 18px "brandon_grotesquebold", sans-serif;
+}
+.team img {
+  margin: 0 auto;
+  display: block;
+}
+.team .proff {
+  font: 18px "brandon_grotesque_regularRg", sans-serif;
+  color: #ebebeb;
+}
+.team a {
+  width: 40px;
+  height: 41px;
+  display: block;
+  border: 3px solid #fff;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background: #000;
+}
+.team .twitt-btn {
+  background: url("../img/team-social-sprite.png") no-repeat;
+  background-position: 8px center;
+}
+.team .fb-btn {
+  background: url("../img/team-social-sprite.png") no-repeat;
+  background-position: -43px center;
+}
+.team .pint-btn {
+  background: url("../img/team-social-sprite.png") no-repeat;
+  background-position: -154px center;
+}
+.team .google-btn {
+  background: url("../img/team-social-sprite.png") no-repeat;
+  background-position: -92px center;
+}
+.team-few-words {
+  width: 80%;
+  margin: 35px auto 0;
+  color: #ebebeb;
+  font: 20px "brandon_grotesque_regularRg", sans-serif;
+}
+.contact {
+  background: #7690c5;
+  padding: 80px 0 0;
+  color: #fff;
+}
+.contact article {
+  padding-bottom: 80px;
+}
+.contact .container {
+  border-bottom: 1px solid #87a0d2;
+}
+.contact .subtitle {
+  text-align: left;
+  color: #fff;
+  font-size: 18px;
+}
+.contact-info .contact-list li {
+  height: 50px;
+  vertical-align: middle;
+  padding: 0 40px;
+  font: 18px "brandon_grotesque_regularRg", sans-serif;
+  position: relative;
+}
+.contact-info .contact-list li:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.contact-info .contact-list .tel:before {
+  background: url("../img/say-hello-sprite.png") no-repeat;
+  background-position: 9px 0;
+  width: 30px;
+  height: 30px;
+}
+.contact-info .contact-list .email:before {
+  background: url("../img/say-hello-sprite.png") no-repeat;
+  background-position: -156px 0;
+  width: 30px;
+  height: 30px;
+}
+.contact-info .contact-list .twitt:before {
+  background: url("../img/say-hello-sprite.png") no-repeat;
+  background-position: -45px 0;
+  width: 30px;
+  height: 30px;
+}
+.contact-info .contact-list .fb:before {
+  background: url("../img/say-hello-sprite.png") no-repeat;
+  background-position: -218px 0;
+  width: 30px;
+  height: 30px;
+}
+.contact-info .contact-list .g-plus:before {
+  background: url("../img/say-hello-sprite.png") no-repeat;
+  background-position: -94px 0;
+  width: 30px;
+  height: 30px;
+}
+.contact-info .contact-list .print:before {
+  background: url("../img/say-hello-sprite.png") no-repeat;
+  background-position: -277px 0;
+  width: 30px;
+  height: 30px;
+}
+.feedback {
+  font: 18px "brandon_grotesquemedium", sans-serif;
+  padding: 50px 0 0;
+}
+.feedback form textarea {
+  resize: none;
+}
+.footer {
+  background: #7690c5;
+  padding: 31px 0;
+  text-align: center;
+  font: 16px "brandon_grotesquemedium", sans-serif;
+  color: #fff;
+}

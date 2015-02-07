@@ -1,0 +1,353 @@
+/*MIXIN*/
+font-med(size)
+  font size "brandon_grotesquemedium", sans-serif
+
+font-light(size)
+  font size "brandon_grotesquelight", sans-serif
+
+font-bold(size)
+  font size "brandon_grotesquebold", sans-serif
+
+font-reg(size)
+  font size "brandon_grotesque_regularRg", sans-serif
+
+border-radius()
+  -webkit-border-radius arguments
+  -moz-border-radius arguments
+  border-radius arguments
+
+box-shadow()
+  -webkit-box-shadow arguments
+  -moz-box-shadow arguments
+  box-shadow arguments
+
+  /*RESET*/
+ul
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus
+  outline: none;
+
+*
+  box-sizing border-box
+
+body
+  font 15px "brandon_grotesque", sans-serif
+
+.block
+  display block
+
+.navbar-inverse
+  background none
+  border none
+
+
+.navbar-collapse
+  box-shadow(none)
+
+section
+  h2
+    font-bold(60px)
+    span
+      font-light(60px)
+
+/*Progect*/
+
+/*Welcome*/
+.welcome-section
+  overflow hidden
+  background url("../img/welcome-bg.jpg") no-repeat fixed
+  background-size cover
+  padding 45px 0 125px
+  nav
+    li
+      a
+        color #fff
+        position relative
+        display block
+        padding 10px 15px
+        font-med(18px)
+
+.header
+  margin 0 0 150px 0
+
+.logo
+  line-height 50px
+
+.navbar-nav
+  float right
+
+.welcome-slogan
+
+  h1
+    font-bold(66px)
+    color #fff
+    text-transform uppercase
+    span
+      text-transform none
+      font-light(32px)
+      margin 40px auto 0
+      color #fff
+  a
+    display inline-block
+    margin 45px auto 0
+    padding 15px 66px
+    font-bold(23px)
+    color #fff
+    border 1px solid #fff
+    border-radius(3px)
+
+/*Services*/
+
+.services
+  article
+    padding 80px 0
+    h2
+      color #000
+      font-bold(40px)
+      span
+        font-light(40px)
+
+
+.web-development
+  .container
+    h2
+      text-align center
+    p
+      font-reg(18px)
+      color #777777
+    position relative
+
+.identity-branding
+  background #fafafa
+  .container
+    position relative
+    h2
+      text-align center
+    p
+      text-align left
+      display inline-block
+      font-reg(18px)
+      color #777777
+
+
+.services-list
+  li
+    /*width 49%*/
+    margin-top 50px
+    h4
+      margin 0
+      font-med(22px)
+      color #222222
+      overflow hidden
+    p
+      font-reg(18px)
+      color #777777
+      overflow hidden
+    span
+      margin 0 20px 0 0
+      float left
+      width 70px
+      height 70px
+      background #000
+      display block
+      border-radius(35px)
+      position relative
+      img
+        position absolute
+        top 0
+        right 0
+        bottom 0
+        left 0
+        margin auto
+
+//  CLIENTS
+
+.clients
+  padding 80px 0
+  background #fafafa
+  text-align center
+  h2
+    color #000
+
+.first-recall
+  .arrow_box
+    text-align left
+    margin-top 30px
+    padding 15px 80px
+    width 64%
+  span
+    overflow hidden
+    float left
+    border-radius(50%)
+  p
+    font-reg(26px)
+    color #777777
+  .clients-name
+    font-reg(20px)
+    color #7690c5
+
+.second-recall
+  margin-top 30px
+  .arrow_box
+    text-align left
+    margin-top 30px
+    padding 15px 80px
+    width 64%
+  span
+    overflow hidden
+    float right
+  p
+    font-reg(26px)
+    color #777777
+  .clients-name
+    font-reg(20px)
+    color #7690c5
+
+.subtitle
+  font-reg(22px)
+  text-align center
+  color #777777
+  margin-bottom 50px
+
+.logos
+  padding 60px 0
+  ul
+    li
+      margin 20px 0
+
+//    TEAM
+.team
+  padding 80px 0
+  background #000
+  color #fff
+  h2
+    color #fff
+  h3
+    font-bold(18px)
+  img
+    margin 0 auto
+    display block
+
+  .proff
+    font-reg(18px)
+    color #ebebeb
+  a
+    width 40px
+    height 41px
+    display block
+    border 3px solid #fff
+    border-radius(20px)
+    background #000
+
+  .twitt-btn
+    background url("../img/team-social-sprite.png") no-repeat
+    background-position 8px center
+
+  .fb-btn
+    background url("../img/team-social-sprite.png") no-repeat
+    background-position -43px center
+
+  .pint-btn
+    background url("../img/team-social-sprite.png") no-repeat
+    background-position -154px center
+
+  .google-btn
+    background url("../img/team-social-sprite.png") no-repeat
+    background-position -92px center
+
+.team-few-words
+  width 80%
+  margin 35px auto 0
+  color #ebebeb
+  font-reg(20px)
+
+//CONTACT
+.contact
+  background #7690c5
+  padding 80px 0 0
+  article
+    padding-bottom  80px
+  color #fff
+  .container
+    border-bottom 1px solid #87a0d2
+  .subtitle
+    text-align left
+    color #fff
+    font-size 18px
+
+.contact-info
+  .contact-list
+    li
+      height 50px
+      vertical-align middle
+      padding 0 40px
+      font-reg(18px)
+      position relative
+      &:before
+        content ""
+        position absolute
+        top 0
+        left 0
+
+    .tel
+      &:before
+        background url("../img/say-hello-sprite.png") no-repeat
+        background-position 9px 0
+        width 30px
+        height 30px
+
+    .email
+      &:before
+        background url("../img/say-hello-sprite.png") no-repeat
+        background-position -156px 0
+        width 30px
+        height 30px
+
+    .twitt
+      &:before
+        background url("../img/say-hello-sprite.png") no-repeat
+        background-position -45px 0
+        width 30px
+        height 30px
+
+    .fb
+      &:before
+        background url("../img/say-hello-sprite.png") no-repeat
+        background-position -218px 0
+        width 30px
+        height 30px
+
+    .g-plus
+      &:before
+        background url("../img/say-hello-sprite.png") no-repeat
+        background-position -94px 0
+        width 30px
+        height 30px
+
+    .print
+      &:before
+        background url("../img/say-hello-sprite.png") no-repeat
+        background-position -277px 0
+        width 30px
+        height 30px
+
+.feedback
+  font-med(18px)
+  padding 50px 0 0
+  form
+    textarea
+      resize none
+
+// FOOTER
+.footer
+  background #7690c5
+  padding 31px 0
+  text-align center
+  font-med(16px)
+  color #fff
